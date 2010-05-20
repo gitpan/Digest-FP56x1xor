@@ -26,7 +26,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.14';	# keep in sync with ../../Digest-FP56x1xor.xs
+our $VERSION = '0.15';	# keep in sync with ../../Digest-FP56x1xor.xs
 
 require XSLoader;
 XSLoader::load('Digest::FP56x1xor', $VERSION);
@@ -35,7 +35,6 @@ XSLoader::load('Digest::FP56x1xor', $VERSION);
 
 1;
 __END__
-# Below is stub documentation for your module. You'd better edit it!
 
 =head1 NAME
 
@@ -122,12 +121,6 @@ Statistics for hash collision are unknown.
 
 None by default.
 
-
-
-=head1 SEE ALSO
-
-licensedigger-2.0, Digest::FP5x12ds
-
 =head1 AUTHOR
 
 Juergen Weigert, E<lt>jw@suse.deE<gt>
@@ -136,9 +129,7 @@ Juergen Weigert, E<lt>jw@suse.deE<gt>
 
 Copyright (C) 2007-2008 by Juergen Weigert
 
-This library is proprietary software; you can redistribute it and/or modify
-it under the same terms as licensedigger-2.0.
-
-Patent pending. Perhaps.
+This library is free software; you can redistribute it and/or modify
+it under the same terms as perl itself.
 
 =cut

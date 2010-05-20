@@ -10,8 +10,6 @@ my $h1 = gen($t1);
 my $t2 = shift || '1';
 my $h2 = gen($t2);
 
-die Dumper $t1, $h1, length($t1),
+print Dumper $t1, $h1, length($t1),
            $t2, $h2, length($t2),
 	   cat($h1,$h2), gen($t1.$t2);
-
-

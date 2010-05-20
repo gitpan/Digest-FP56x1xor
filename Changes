@@ -1,5 +1,8 @@
 Revision history for Perl extension Digest-FP56x1xor.
 
+0.15  Thu May 20 15:34:39 CEST 2010
+	- cleaned of unused code, released to cpan.
+
 0.14  Thu Jun 26 22:58:05 CEST 2008
 	- bugfix: signextension lead to large ints, segfault in gen() 
 

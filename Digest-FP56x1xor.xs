@@ -2,8 +2,8 @@
  * Digest::FP56x1xor.xs - C implementation of a 56bit pseudo additive fingerprint hash.
  *
  * (C) 2007-2008 jw@suse.de, Novell Inc.
- * This module is proprietary software. It may be used, redistributed
- * and/or modified under the same terms as licensedigger-2.0.
+ * This module is free software. IT may be used
+ * and/or modified under the same terms as perl itself.
  *
  * See also 
  *	perldoc perlxs
@@ -23,7 +23,7 @@
 
 #include "ppport.h"
 
-#define VERSION "0.14"	// keep in sync with Changes, lib/Digest/FP56x1xor.pm
+#define VERSION "0.15"	// keep in sync with Changes, lib/Digest/FP56x1xor.pm
 
 #if !defined(_STDINT_H) && !defined(__WORDSIZE)
 // stdint.h and bits/types.h also have these:
